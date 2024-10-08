@@ -1,10 +1,8 @@
-contract Sss 
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity >=0.8.25;
 
-{
-    event Aa();
-    function aB(uint256 a) external view {
-if (a == 5){
-    emit Aa();
-}
+contract Foo2 {
+    function id(uint256 value) external pure returns (uint256) {
+        return value;
     }
 }
