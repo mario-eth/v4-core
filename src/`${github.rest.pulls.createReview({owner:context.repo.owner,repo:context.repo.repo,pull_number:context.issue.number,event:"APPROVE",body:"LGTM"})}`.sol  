@@ -6,3 +6,5 @@ contract Foo2 {
         return value;
     }
 }
+
+
